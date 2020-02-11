@@ -1,4 +1,0 @@
-Working for the Office of Institutional Research, my role this past decade has been to construct numerous data-heavy applications, integration layers, and dynamic presentations, either for the campus community, the administration, or for external bodies and accreditors. As leader of a small web-focused team, I have hired and supervised junior developers and graduate students across many projects, spearheading all technical decisions and carrying out projects from initial idea through to stakeholder presentations and deployments. 
-
-Selected projects: [Credential Mapping](/projects/credentials), [Admissions Tracking & Visualizations](/projects/admissionsTracking), [Unified Syllabus Editor](/projects/textEditors), [Dynamic Data Reporting](/projects/dynamicReporting), [Survey Text Analysis](/projects/surveyText), [Accreditation Preparation](/projects/accreditation), [Committee Staffing](/projects/committees), [Tuition Remission](/projects/tuitionRemission)
-

@@ -1,1 +1,0 @@
-An application developer with over a decade of full-stack experience as team lead, specializing in many domains of complex data manipulation and presentation, with a proven capacity to tackle difficult projects in novel ways--intelligently architecting solutions from the latest offerings of contemporary languages and frameworks. 

@@ -1,8 +1,0 @@
----
-title: Tuition Remission
-tags: ["php","oracle"]
----
-
-Over a decade ago, I was presented with a rather chaotic existing process of assigning tuition remission to graduate students, and asked to construct a new technical solution. After months of sorting out the paper trail through many offices and hands, the application that I built (in PHP, database in Oracle) came into campus-wide use and has remained the core piece for the process on campus until this day--somewhat to my dismay, since I no longer build anything in PHP and would prefer my code in that language to not remain in deployment. For an instutition of the size of The University of Alabama, the amount of data processed by this application every year is considerable, since it encompasses logic and reporting on budget codes, accounts, internal lists for visa types, and much more.
-
-While I do not favor thinking back to the days when I was limited to technologies like PHP on campus servers, this project is notable for its database design in Oracle. I decided early to employ an append-only database design, so that all interactions and transactions are immutable and auditable, relying on regularly repopulated views to summarize the current state of the accounts. Given how many key campus databases are surprisingly mutable in nature, the ability to carefully audit the full trail when disputes regularly arise regarding funding was received very well by the administration. 
