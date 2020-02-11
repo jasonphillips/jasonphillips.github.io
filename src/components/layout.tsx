@@ -6,26 +6,14 @@
  */
 
 const React = require('react')
-import { graphql } from "gatsby"
-import { useStaticQuery } from "gatsby"
 import Obfuscate from "react-obfuscate";
 import Header from "./header"
 import "./layout.css"
 
 const Layout: React.FC<{front?:boolean}> = ({ children, front }) => {
-  const data = useStaticQuery(graphql`
-    query SiteTitleQuery {
-      site {
-        siteMetadata {
-          title
-        }
-      }
-    }
-  `)
-
   return (
     <>
-      {!front && <Header siteTitle={data.site.siteMetadata.title} />}
+      {!front && <Header siteTitle={"jason.phillips"} />}
       <div
         style={{
           margin: `0 auto`,

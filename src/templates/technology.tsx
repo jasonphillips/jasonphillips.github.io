@@ -12,7 +12,7 @@ const TechnologyTemplate: React.FC<{ data: TechPageQuery }> = ({
 
   const { frontmatter, html } = markdownRemark
 
-  if (frontmatter.parent) {
+  if (frontmatter.parent && typeof(window)!=='undefined') {
     navigate(`/technologies/${frontmatter.parent}`)
     return (
       <div/>
