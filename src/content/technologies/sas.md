@@ -1,0 +1,13 @@
+---
+title: SAS
+tags: ["python", "graphql"]
+competency: "advanced"
+---
+
+Working in Institutional Research at The University of Alabama necessitated becoming fluent and productive in the language and software package most heavily used by other analysts in our unit, and that happened to be SAS. While I would rarely select SAS for my own purposes if architecting a reporting process from scratch, learning its peculiarities and opinionated style was essential to finding innovative ways to integrate that domain (and the personnel working in that domain) with my own application and web-centric extensions. 
+
+I am well versed in ETL, merging, reshaping, slicing, and descriptive reporting strategies in SAS code, from database integrations to mastering the `DATA` step's logic to `PROC REPORT` and, crucially, `PROC TABULATE`. The latter--which is essentially just a very convenient iteration on a much older syntax known as TPL or "table-producing language"--is the main hinge by which our office sliced data into deep nested structres with statistical aggregations. A few years ago, I decided to learn from its syntax, revisit the old documents on TPL, and [write my own parser](https://github.com/jasonphillips/retabulate/blob/master/packages/retabulate-sas-parser/src/grammar/tabulate.yy) for the `TABULATE` procedure, so that I could take full statements from others, in their most comfortable language, and transform them into a new domain syntax in [GraphQL](/technologies/graphql), which I can then [execute and render](https://jasonphillips.github.io/retabulate/). I ultimately presented this reverse-engineering project at SAS Global. This stack permits the data execution to occur on either the client or the server with little friction, and has powered many complex dashboards and reporting tools for the university administration, including many datasets from large surveys, among which were all of the student course evaluations.
+
+An open-source initiative from the SAS Institute to which I have notably contributed is the integration of[Python](/technologies/python) and SAS, where I have helped to shape the direction of the library and, unsurprisingly given my interested, authored its [TABULATE implementation](https://github.com/sassoftware/saspy/pull/125). In 2019, I was an invited speaker at SAS Global to lead a longer dedicated session walking through this new direction for their integrations.   
+
+More recently, I have begun to build new visualization integrations into the SAS Visual Analytics platform for the purposes of our institution. 

@@ -1,0 +1,9 @@
+---
+title: Rust
+tags: ["wasm","nlp","rules"]
+competence: "advanced"
+---
+
+Rust has rapidly become my favorite development experience when low-level or highly efficient work needs to be done. I find its syntax elegant and its referential integrity a breeze to work with, since I'm forced to iron out any confusions or ambiguities about ownership in the development phase prior to compilation--and the excellent tooling makes that as smooth as possible. In the end, I also simply find the abstractions and appearance of the code to be somewhat beautiful, which turns out to be necessary if I'm going to be buried in low-level code for a project.
+
+I have mainly worked with rust in the context of building efficient code to deploy as [web assembly](/technologies/wasm), when a task is memory or computationally expensive enough that javascript isn't appropriate. One major Rust project on which I expended considerable effort is the construction of a pattern-matching engine for text tokens (in the context of [NLP](/technologies/nlp)), which I designed with hashmaps and smart iteration in order to achieve sufficient speed for embedding on the web, analyzing large texts against lengthy lists of grammatically expressed declarative rules. Because this project requires de-serializing the entire ruleset from an external file, deep JSON parsing into efficient rust structures also made up a sizeable portion of the work. In a related library, I reworked Wordnet data structures into a form serializable as a binary payload that can be ingested quickly once the Web Assembly module loads (streamed in as a `Uint8Array` buffer), and permits rapid traversal for the NLP task of stemming. 

@@ -1,0 +1,65 @@
+{
+  "name": "gatsby-starter-default",
+  "private": true,
+  "description": "A simple starter to get up and developing quickly with Gatsby",
+  "version": "0.1.0",
+  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "resolutions": {
+    "remark": "11.0.2"
+  },
+  "dependencies": {
+    "@types/node": "^13.1.6",
+    "@types/react": "^16.9.17",
+    "@types/react-dom": "^16.9.4",
+    "@types/vfile-message": "^2.0.0",
+    "gatsby": "^2.18.12",
+    "gatsby-image": "^2.2.34",
+    "gatsby-plugin-manifest": "^2.2.31",
+    "gatsby-plugin-offline": "^3.0.27",
+    "gatsby-plugin-postcss": "^2.1.20",
+    "gatsby-plugin-react-helmet": "^3.1.16",
+    "gatsby-plugin-typescript": "^2.1.26",
+    "gatsby-plugin-typography": "^2.3.22",
+    "gatsby-remark-smartypants": "2.1.19",
+    "gatsby-source-filesystem": "^2.1.40",
+    "gatsby-transformer-remark": "^2.6.48",
+    "google-fonts-plugin": "^5.0.2",
+    "graphql-tag": "^2.10.1",
+    "prop-types": "^15.7.2",
+    "react": "^16.9.17",
+    "react-dom": "^16.9.17",
+    "react-helmet": "^5.2.1",
+    "react-obfuscate": "^3.6.6",
+    "react-typography": "^0.16.19",
+    "remark": "11.x.x",
+    "typography": "^0.16.19",
+    "typography-theme-st-annes": "^0.16.19"
+  },
+  "devDependencies": {
+    "gatsby-plugin-graphql-codegen": "^2.1.1",
+    "gatsby-plugin-ts": "^2.1.1",
+    "graphql": "^14.5.8",
+    "prettier": "^1.19.1",
+    "typescript": "^3.7.4"
+  },
+  "keywords": [
+    "gatsby"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
+    "start": "npm run develop",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean",
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
+  },
+  "bugs": {
+    "url": "https://github.com/gatsbyjs/gatsby/issues"
+  }
+}

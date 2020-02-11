@@ -1,0 +1,11 @@
+overwrite: true
+schema: "http://localhost:8000/__graphql"
+documents: "src/queries/**/*.gql"
+config:
+  namingConvention:
+    enumValues: keep
+generates:
+  src/queries/types/index.d.ts:
+    plugins:
+      - "typescript"
+      - "typescript-graphql-files-modules"
