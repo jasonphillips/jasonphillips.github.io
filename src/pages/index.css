@@ -26,7 +26,7 @@ blockquote {
 }
 a[href*='github']:before {
   content: " ";
-  background-image: url(http://localhost:8000/icons/github.svg);
+  background-image: url(https://jasonphillips.github.io/icons/github.svg);
   background-size: 20px;
   padding: 0px 0px 0px 24px;
   background-repeat: no-repeat;
@@ -36,7 +36,7 @@ a[href*='github']:before {
 }
 a[href*='www']:before {
   content: " ";
-  background-image: url(http://localhost:8000/icons/globe.svg);
+  background-image: url(https://jasonphillips.github.io/icons/globe.svg);
   background-size: 20px;
   padding: 0px 0px 0px 24px;
   background-repeat: no-repeat;
