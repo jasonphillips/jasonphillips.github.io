@@ -1,10 +1,10 @@
 ---
 title: Survey Text Analysis 
-tags: ["NLP", "python", "machine learning", "javascript", "react", "data science"]
+tags: ["python", "machineLearning", "javascript", "react", "visualization"]
 roles: ["full-stack"]
 ---
 
-Below is a pre-existing write-up of this project for administrative purposes & accountability.
+Below is a pre-existing write-up of this project for administrative purposes & accountability. For other work in this space, see [machine learning](/technologies/machineLearning).
 
 ## Survey Text Analysis
 
